@@ -1,0 +1,27 @@
+{
+  "airdrop_page_url": "https://replace-with-your-local-target-page.example",
+  "rpc_url": "https://replace-with-your-rpc-url.example",
+  "explorer_base_url": "https://replace-with-your-explorer.example",
+  "wallet_address": "replace-with-your-wallet-address",
+  "gas_token_symbol": "NATIVE",
+  "native_decimals": 18,
+  "headless": false,
+  "browser_mode": "connect_existing_chrome",
+  "chrome_debug_url": "http://127.0.0.1:9222",
+  "session_label": "manual_run",
+  "auto_click_start_after_address_generated": true,
+  "explorer_retry_count": 12,
+  "explorer_retry_interval_ms": 5000,
+  "explorer_holders_wait_timeout_ms": 1800000,
+  "explorer_holders_wait_interval_ms": 15000,
+  "tokens": {
+    "TOKEN_A": {
+      "contract": "replace-with-token-contract-a",
+      "amount_per_address": "0.000001"
+    },
+    "TOKEN_B": {
+      "contract": "replace-with-token-contract-b",
+      "amount_per_address": "0.000001"
+    }
+  }
+}

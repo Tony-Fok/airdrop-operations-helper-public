@@ -1,0 +1,32 @@
+{
+  "name": "airdrop-operations-helper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Playwright helper for token distribution operations: wallet confirmation automation and native gas reporting.",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "dashboard:api": "tsx src/server.ts",
+    "dashboard:dev": "vite --host 127.0.0.1 --port 5173",
+    "dashboard:build": "vite build",
+    "dashboard:preview": "vite preview --host 127.0.0.1 --port 4173",
+    "typecheck": "tsc --noEmit",
+    "install:browsers": "playwright install chromium"
+  },
+  "dependencies": {
+    "@fastify/static": "^9.1.3",
+    "@playwright/test": "^1.44.0",
+    "@vitejs/plugin-react": "^6.0.2",
+    "decimal.js": "^10.4.3",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.8.5",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "tsx": "^4.16.2",
+    "vite": "^8.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.2"
+  }
+}
